@@ -20,6 +20,26 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{aguirre2005emergency}
+B.~E. Aguirre, ``Emergency evacuations, panic, and social psychology,'' \emph{Psychiatry}, vol.~68, no.~2, pp. 121--129, 2005.
+
+\bibitem{foldesbusque2017closer}
+G.~Foldes-Busque, I.~Denis, J.~Poitras, R.~P. Fleet, P.~Archambault, and C.~E. Dionne, ``A closer look at the relationships between panic attacks, emergency department visits and non-cardiac chest pain,'' \emph{Journal of Health Psychology}, vol.~24, no.~6, pp. 717--725, 2017.
+
+\bibitem{kirubarajan2020artificial}
+A.~Kirubarajan, A.~Taher, S.~Khan, and S.~Masood, ``Artificial intelligence in emergency medicine: a scoping review,'' \emph{JACEP Open}, vol.~1, no.~6, pp. 1691--1702, 2020.
+
+\bibitem{deguzman2014mobile}
+J.~B. de~Guzman, R.~G. Ado \emph{et~al.}, ``Mobile emergency response application using geolocation for command centers,'' \emph{International Journal of Computer and Communication Engineering}, vol.~3, no.~4, p. 235, 2014.
+
+\bibitem{romano2016designing}
+M.~Romano, T.~Onorati, I.~Aedo, and P.~Diaz, ``Designing mobile applications for emergency response: citizens acting as human sensors,'' \emph{Sensors}, vol.~16, no.~3, p. 406, 2016.
+
+\bibitem{kiran2020artificial}
+\BIBentryALTinterwordspacing
+K.~Grant, A.~McParland, S.~Mehta, and A.~D. Ackery, ``Artificial intelligence in emergency medicine: Surmountable barriers with revolutionary potential,'' \emph{Annals of Emergency Medicine}, vol.~75, no.~6, pp. 721--726, 2020. [Online]. Available: \url{https://www.sciencedirect.com/science/article/pii/S0196064419314659}
+\BIBentrySTDinterwordspacing
+
 \bibitem{overleaf:learnlatex}
 Overleaf, ``Learn latex in 30 minutes,'' \url{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}.
 
