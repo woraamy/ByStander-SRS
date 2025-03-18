@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  17 MAR 2025 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  18 MAR 2025 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -602,31 +602,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
  (./body/requirementanalysis.tex
 Chapter 3.
-[10
+
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+ [10
 
 
 
 ]
-<./assets/examples/user-interface-design.png, id=309, 405.31425pt x 211.992pt>
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 29.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [11]
+<./assets/examples/user-interface-design.png, id=324, 405.31425pt x 211.992pt>
 File: ./assets/examples/user-interface-design.png Graphic file (type png)
 <use ./assets/examples/user-interface-design.png>
-Package pdftex.def Info: ./assets/examples/user-interface-design.png  used on input line 48.
+Package pdftex.def Info: ./assets/examples/user-interface-design.png  used on input line 86.
 (pdftex.def)             Requested size: 334.60422pt x 175.00552pt.
-) [11 <./assets/examples/user-interface-design.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [12] [13 <./assets/examples/user-interface-design.png>]
 \openout2 = `body/softwarearchitecture.aux'.
 
  (./body/softwarearchitecture.tex
 Chapter 4.
-[12
+[14
 
 
 
-]) [13]
+]) [15]
 \openout2 = `body/softwaredevelopment.aux'.
 
  (./body/softwaredevelopment.tex
 Chapter 5.
-<./assets/examples/tech-stack.png, id=324, 613.54219pt x 613.54219pt>
+<./assets/examples/tech-stack.png, id=342, 613.54219pt x 613.54219pt>
 File: ./assets/examples/tech-stack.png Graphic file (type png)
 <use ./assets/examples/tech-stack.png>
 Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 13.
@@ -634,16 +645,16 @@ Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 13
 
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
- [14
+ [16
 
 
 
- <./assets/examples/tech-stack.png>]) [15]
+ <./assets/examples/tech-stack.png>]) [17]
 \openout2 = `body/deliverable.aux'.
 
  (./body/deliverable.tex
 Chapter 6.
-) [16
+) [18
 
 
 
@@ -652,11 +663,11 @@ Chapter 6.
 
  (./body/discussion.tex
 Chapter 7.
-) [17
+) [19
 
 
 
-] (./common/onetextpage.tex) [18
+] (./common/onetextpage.tex) [20
 
 
 
@@ -665,26 +676,26 @@ Overfull \hbox (1.64757pt too wide) in paragraph at lines 36--37
 \T1/ptm/m/n/14.4 (-20) applications for emergency response: citizens acting as human sensors,''
  []
 
-) [19
+) [21
 
 ]
 \openout2 = `body/appendices.aux'.
 
  (./body/appendices.tex (./common/onetextpage.tex)
 \c@nappendix=\count290
- [20
+ [22
 
 
-] [21
+] [23
 
-] [22
+] [24
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
-) [23
+) [25
 
 ] (./document.aux (./partials/cover.aux) (./partials/innercover.aux) (./body/abstract.aux) (./body/acknowledgement.aux) (./body/introduction.aux) (./body/relatedworks.aux) (./body/requirementanalysis.aux) (./body/softwarearchitecture.aux) (./body/softwaredevelopment.aux) (./body/deliverable.aux) (./body/discussion.aux) (./body/appendices.aux))
  ***********
@@ -695,18 +706,18 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 9829141DA2BAB5839860B815CBEB2344;5414.
  ) 
 Here is how much of TeX's memory you used:
- 14407 strings out of 474116
- 244996 string characters out of 5743683
+ 14454 strings out of 474116
+ 245648 string characters out of 5743683
  1946187 words of memory out of 5000000
- 36107 multiletter control sequences out of 15000+600000
- 636302 words of font info for 286 fonts, out of 8000000 for 9000
+ 36134 multiletter control sequences out of 15000+600000
+ 636672 words of font info for 289 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1077b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1077b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (31 pages, 986255 bytes).
+Output written on document.pdf (33 pages, 989767 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 97592 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 99640 words of extra memory for PDF output out of 106986 (max. 10000000)
 

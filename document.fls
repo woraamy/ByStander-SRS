@@ -317,6 +317,11 @@ OUTPUT body/requirementanalysis.aux
 INPUT ./body/requirementanalysis.tex
 INPUT ./body/requirementanalysis.tex
 INPUT body/requirementanalysis.tex
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./assets/examples/user-interface-design.png
 INPUT ./assets/examples/user-interface-design.png
 INPUT ./assets/examples/user-interface-design.png
