@@ -16,51 +16,109 @@ the literature review section.
 %     \caption{Competitive Landscape by Asana}
 % \end{figure}
 
-These are the application with similar functionalities to ByStander
+Current emergency response applications, while valuable, present significant limitations in addressing the complex challenges faced 
+by individuals during crisis situations. A comprehensive analysis of existing solutions reveals critical gaps that ByStander aims to 
+overcome with its innovative approach.
 
 \begin{enumerate}
-    \item \textbf{ICE - In Case of Emergency} \\
-    The ICE application is designed primarily to store emergency contacts and medical information, such as allergies and emergency contacts, for quick access during an emergency. While this is helpful for ensuring that medical details are available in emergencies, it lacks the real-time guidance that ByStander offers. ByStander, with its AI-driven system, not only helps identify the appropriate emergency contact but also provides dynamic, step-by-step guidance during an emergency situation, enhancing decision-making under stress.    
+    \item \textbf{JS100 Application (Android, iOS)} \\
+    JS100 Application offers an SOS function that allows users to share their location during emergencies with a single tap. While the app effectively pinpoints a user's location for emergency services, it provides no guidance or contextual assistance during the emergency itself. This critical gap means users must rely solely on their own knowledge during stressful situations, potentially leading to poor decision-making when quick, informed actions are most needed. In contrast, ByStander not only facilitates emergency contact but delivers AI-driven, personalized guidance based on the emergency type, significantly improving outcomes by reducing panic and providing clear direction during critical moments.
+    
     \item \textbf{First Aid by American Red Cross} \\
-    The Red Cross app offers clear instructions for first aid procedures, ranging from CPR to treating burns or fractures. While the instructions are easy to follow and offer a valuable resource for immediate medical emergencies, the app does not address other critical aspects of emergency response, such as choosing the right emergency service or location-based routing. ByStander distinguishes itself by offering real-time, optimized routing and expert-powered guidance, beyond just first aid.
-    \item \textbf{911 Assistance Apps} \\
-    Several local and national emergency assistance apps allow users to call emergency services and provide real-time location data to responders. These apps, while useful in urgent situations, generally lack the intelligent, context-sensitive decision-making that ByStander offers. For instance, ByStander tailors its response to the nature of the emergency and the user’s location, offering step-by-step guidance and helping to reduce cognitive strain under stress.
+    The First Aid by American Red Cross app provides users with easy-to-follow instructions for a variety of first aid procedures, such as performing CPR, treating burns, fractures, and other common medical emergencies. While these instructions are clear and offer valuable assistance for immediate medical situations, the app falls short in addressing other critical aspects of emergency response. It does not provide guidance on selecting the correct emergency service or suggest the nearest facilities for assistance. In contrast, ByStander distinguishes itself by not only offering detailed first aid instructions but also providing real-time location-based routing and expert-powered guidance. This integration of dynamic response options enhances the app’s utility in a broader range of emergencies, beyond just first aid.
+
+    \item \textbf{Emergency+ (Australia)} \\
+    The Emergency+ app is a GPS-based service designed to help users locate the nearest emergency services in Australia. By using the user’s current location, it allows them to quickly reach the correct emergency service provider. The app displays essential details like the address and contact number for services like police, fire, and ambulance. However, it does not provide the in-depth, real-time guidance or the AI-driven emergency assistance that ByStander offers. ByStander takes it a step further by offering location-based guidance and optimized decision-making based on the nature of the emergency, providing both immediate and actionable support.
+
 \end{enumerate}
 
-\begin{table}[htp]
-\tiny
-\centering
-\begin{tabular}{|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
-\hline
-\textbf{Feature}                           & \textbf{ICE - In Case of Emergency}                     & \textbf{First Aid by American Red Cross}            & \textbf{911 Assistance Apps}                        & \textbf{ByStander}                                     \\ \hline
-\textbf{Emergency Contact Storage}          & Yes                                               & No                                            & Yes                                            & No                                               \\ \hline
-\textbf{Real-Time Location-Based Routing}   & No                                                & No                                            & Yes                                            & Yes                                              \\ \hline
-\textbf{Real-Time Emergency Guidance}       & No                                                & Yes (first aid only)                          & No                                             & Yes                                              \\ \hline
-\textbf{Step-by-Step Instructions}          & No                                                & Yes                                           & No                                             & Yes                                              \\ \hline
-\textbf{AI-Driven Guidance}                 & No                                                & No                                            & No                                             & Yes                                              \\ \hline
-\textbf{Expert-Powered Content}             & No                                                & No                                            & No                                             & Yes                                              \\ \hline
-\textbf{Emergency Service Contact}          & No                                                & No                                            & Yes                                            & Yes (optimized, based on location and type)      \\ \hline
-\textbf{Scope of Emergency Types}           & General (contact info)                            & Medical emergencies (first aid focused)       & General emergencies (mainly police/fire)       & Wide range (medical, accident, fire, etc.)       \\ \hline
-\textbf{User-Friendliness}                  & High                                              & High                                          & High                                           & High                                             \\ \hline
-\textbf{Target User}                        & General public, with emphasis on contact info     & Individuals needing first aid instructions   & Individuals needing to contact emergency services & General public, with tailored guidance for all types of emergencies \\ \hline
-\textbf{Customization}      & No                                                & No                                            & No                                             & Yes (context-sensitive, AI-based, expert content) \\ \hline
-\end{tabular}
+ByStander addresses these limitations by integrating advanced technologies identified in current research with practical emergency response needs. Unlike existing applications, ByStander combines AI-driven decision support with location-based routing and expert-verified guidance to create a comprehensive emergency response system. Building on the findings of Kirubarajan et al. (2020) regarding AI's potential in emergency medicine, ByStander leverages artificial intelligence to provide real-time, actionable insights that can significantly reduce cognitive load during emergencies. This approach directly addresses the issues of panic-induced cognitive impairment highlighted in emergency response literature, offering users clear, contextually relevant guidance when they need it most.
+
+% \begin{table}[htp]
+% \tiny
+% \centering
+% \begin{tabular}{|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+% \hline
+% \textbf{Feature}                           & \textbf{ICE - In Case of Emergency}                     & \textbf{First Aid by American Red Cross}            & \textbf{911 Assistance Apps}                        & \textbf{ByStander}                                     \\ \hline
+% \textbf{Emergency Contact Storage}          & Yes                                               & No                                            & Yes                                            & No                                               \\ \hline
+% \textbf{Real-Time Location-Based Routing}   & No                                                & No                                            & Yes                                            & Yes                                              \\ \hline
+% \textbf{Real-Time Emergency Guidance}       & No                                                & Yes (first aid only)                          & No                                             & Yes                                              \\ \hline
+% \textbf{Step-by-Step Instructions}          & No                                                & Yes                                           & No                                             & Yes                                              \\ \hline
+% \textbf{AI-Driven Guidance}                 & No                                                & No                                            & No                                             & Yes                                              \\ \hline
+% \textbf{Expert-Powered Content}             & No                                                & No                                            & No                                             & Yes                                              \\ \hline
+% \textbf{Emergency Service Contact}          & No                                                & No                                            & Yes                                            & Yes (optimized, based on location and type)      \\ \hline
+% \textbf{Scope of Emergency Types}           & General (contact info)                            & Medical emergencies (first aid focused)       & General emergencies (mainly police/fire)       & Wide range (medical, accident, fire, etc.)       \\ \hline
+% \textbf{User-Friendliness}                  & High                                              & High                                          & High                                           & High                                             \\ \hline
+% \textbf{Target User}                        & General public, with emphasis on contact info     & Individuals needing first aid instructions   & Individuals needing to contact emergency services & General public, with tailored guidance for all types of emergencies \\ \hline
+% \textbf{Customization}      & No                                                & No                                            & No                                             & Yes (context-sensitive, AI-based, expert content) \\ \hline
+% \end{tabular}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+    \hline
+    \textbf{Feature} & \textbf{ByStander} & \textbf{First Aid by American Red Cross} & \textbf{Emergency+ (Australia)} & \textbf{JS100 Application} \\
+    \hline
+    \textbf{First Aid Instructions} & Comprehensive guidance & Detailed but static instructions & Basic information only & None \\
+    \hline
+    \textbf{Emergency Service Selection} & AI-assisted selection & Not available & Manual selection & One-button Alert System \\
+    \hline
+    \textbf{Location-Based Routing} & Real-time routing to nearest appropriate facility & Not available & Basic GPS location sharing & GPS location sharing only \\
+    \hline
+    \textbf{AI-Driven Assistance} & Personalized guidance based on emergency context & Not available & Not available & Not available \\
+    \hline
+    \textbf{Panic Detection} & Automatic detection of user distress & Not available & Not available & SOS button only \\
+    \hline
+    \textbf{Step-by-Step Crisis Guidance} & Dynamic guidance adapting to situation changes & Static instructions only & Not available & Not available \\
+    \hline
+    \textbf{Community Expert Input} & Localized guidance from verified experts & General information only & Not available & Not available \\
+    \hline
+    \textbf{Stress-Resistant Interface} & Specifically designed for high-stress usability & Standard interface & Standard interface & Basic interface \\
+    \hline
+    \hline
+    \textbf{Multiple Emergency Types} & Medical, accidental, and crime emergencies & Medical emergencies only & All types but limited guidance & NO specific categorization \\
+    \hline
+    \textbf{Area of available} & Thailand & United States & Australia & Thaland \\
+    \hline
 \caption{Comparison of Emergency Assistance Applications}
 \label{tab:competitor-analysis}
-\end{table}
+\end{longtable}
     
 \section{Literature Review}
 \label{section:literature-review}
 
 
-In emergency situations, panic often plays a critical role in exacerbating an individual's ability to respond effectively, potentially leading to poor decision-making and delays in seeking help. According to Aguirre (2005), panic can lead to a breakdown in communication, confusion, and hesitation, which worsens the outcomes in emergency scenarios. This psychological phenomenon is especially dangerous in high-stress situations, where quick and decisive action is crucial to minimize harm. Panic can disrupt normal cognitive processing, leading individuals to either freeze or make erratic decisions that are not based on a rational assessment of the situation \cite{aguirre2005emergency}. Research also indicates that emergency evacuations and crises are significantly impacted by social psychology and the widespread tendency to panic, which can delay the response efforts and hinder the coordination of emergency services \cite{aguirre2005emergency}.
+Emergency situations create unique cognitive challenges that can significantly impair an individual's ability to respond effectively. \cite{aguirre2005emergency} has documented how panic leads to communication breakdowns, confusion, 
+and decision paralysis in emergency scenarios, highlighting the critical need for interventions that can offset these psychological limitations. 
+This research underscores the importance of developing tools that can maintain rational decision-making capabilities even when users are experiencing extreme stress—a core design principle 
+behind ByStander's interface and AI assistance system. \\
 
-In emergency medical contexts, panic-related cognitive impairment becomes even more pronounced. Foldes-Busque et al. (2017) highlight the prevalence of emergency department (ED) visits triggered by panic attacks, particularly in patients presenting with non-cardiac chest pain. Their study found that a substantial portion of ED visits can be linked to panic attacks, suggesting that individuals experiencing psychological distress may seek emergency care unnecessarily, further overwhelming medical resources. This highlights the need for interventions that can reduce panic and support individuals in managing emergency situations more effectively \cite{foldesbusque2017closer}.
+The prevalence of panic-induced decision-making in emergency contexts is further supported 
+by \cite{foldesbusque2017closer}, who found that a substantial portion of emergency department 
+visits for non-cardiac chest pain are triggered by panic attacks. This research highlights how psychological 
+distress can lead to resource misallocation in emergency medical services, reinforcing the need for applications like ByStander that can help users make more informed decisions about when and how to seek emergency assistance. \\ 
 
-Artificial intelligence (AI) has emerged as a promising technology in mitigating cognitive impairment during emergencies. AI offers the potential to enhance decision-making by providing real-time, actionable insights based on vast amounts of data, which can help individuals navigate stressful scenarios more effectively. Kirubarajan et al. (2020) reviewed the role of AI in emergency medicine, noting that AI technologies, such as machine learning and deep learning, can significantly improve the accuracy of diagnoses, particularly in the context of acute radiographic imaging and patient outcome predictions. These technologies help reduce cognitive overload by offering data-driven support that minimizes human error. Additionally, AI's ability to analyze data in real time could help in predicting emergency events or identifying critical issues, allowing for faster and more efficient interventions \cite{kirubarajan2020artificial}.
+Artificial intelligence offers promising solutions to these challenges. \cite{kirubarajan2020artificial} examined AI's role 
+in emergency medicine, noting its potential to enhance diagnostic accuracy and reduce cognitive overload through data-driven support. 
+Similarly, \cite{kiran2020artificial} highlighted AI's transformative potential in emergency medicine through faster and more accurate 
+decision-making capabilities. These findings inform ByStander's AI-driven approach, which aims to provide users with personalized, 
+real-time guidance based on emergency type, location, and historical patterns. \\ 
 
-In the context of emergency response, mobile applications have become a key tool for enhancing real-time communication and decision-making. Several studies have demonstrated the benefits of mobile apps that utilize geolocation and other technologies to provide location-based emergency response. For instance, de Guzman and Ado (2014) developed a mobile emergency response application using geolocation for command centers, which allows emergency personnel to quickly identify the most critical situations based on geographic information. Similarly, Romano et al. (2016) explored how mobile apps could enable citizens to act as "human sensors" during emergencies by gathering real-time data from users on the ground. These applications help by offering step-by-step guidance for first responders and citizens, reducing the reliance on bystanders’ decision-making under stress and enhancing coordination among emergency teams \cite{deguzman2014mobile, romano2016designing}.
+Voice recognition technology represents another critical component of emergency response systems. \cite{voice_recognition} 
+explored speech-to-text recognition systems that can accurately convert spoken language into text, even in noisy environments. 
+Their research demonstrates how such technology can be particularly valuable in emergency situations where manual input may be difficult 
+or impossible. ByStander incorporates these findings by implementing voice recognition features that allow users to communicate emergency 
+details hands-free, addressing scenarios where physical interaction with the device may be limited. \\
 
-The integration of AI into mobile applications further amplifies their potential. Mobile apps that combine AI and machine learning capabilities can guide users through emergencies by providing personalized instructions based on real-time data, such as the user’s location, the nature of the emergency, and previous emergency patterns. As Kiran Grant et al. (2020) explain, AI has transformative potential in emergency medicine by enabling faster and more accurate decisions, such as predicting patient outcomes and assisting in diagnostic processes. AI-enabled mobile applications could significantly improve the way users respond to medical emergencies by offering tailored, real-time guidance, thus alleviating the cognitive load and reducing the impact of panic on decision-making \cite{kiran2020artificial}.
+Decision-making algorithms in emergency contexts have been explored by \cite{ai_decision_making}. Their research emphasizes 
+how AI can effectively navigate complex decision trees to provide optimal recommendations based on multiple variables—a capability 
+directly applicable to emergency response scenarios where numerous factors must be considered simultaneously. 
+ByStander leverages this approach by implementing decision support algorithms that can rapidly assess emergency type, severity, l
+ocation, and available resources to recommend the most appropriate response actions. \\ 
 
-As research continues to evolve in both AI and mobile technology for emergency response, it is evident that these innovations have the potential to revolutionize the way individuals and emergency services handle crises. By reducing the cognitive impairments caused by panic and offering real-time, data-driven support, AI and mobile apps can significantly enhance emergency outcomes and improve response times \cite{kirubarajan2020artificial, kiran2020artificial}. The development of mobile applications that integrate AI, like the one proposed in this research, offers a comprehensive solution to the challenges posed by panic and cognitive overload in emergency situations.
+The challenges of complexity in decision-making, particularly under stress, are further examined by \cite{complexity_decision}. 
+This analysis highlights how cognitive load increases exponentially with decision complexity, and how this effect is amplified under 
+stress—precisely the condition most emergency victims experience. ByStander addresses this challenge by simplifying complex decisions into manageable steps guided by AI, effectively reducing cognitive burden during crisis situations. \\
+
+Regional research specific to Thailand's emergency response systems, such as the study by \cite{thai_ai_emergency}, provides valuable insights into local emergency service infrastructure and challenges. This research informs ByStander's region-specific implementations, ensuring that the application is optimized for Thailand's unique emergency response ecosystem. \\
+
+Finally, practical applications of AI in emergency response settings are documented by \cite{ai_emergency_response}. This analysis showcases successful implementations of AI technologies in emergency dispatch centers, highlighting significant improvements in response times and resource allocation. ByStander builds upon these proven concepts by extending AI assistance directly to users through a mobile interface, creating an end-to-end solution that bridges the gap between emergency victims and professional responders. \\
+
+By synthesizing these research findings, ByStander creates a comprehensive approach to emergency response that addresses both the psychological limitations of users and the practical challenges of emergency service access. The application's integration of AI decision support, voice recognition, location-based routing, and stress-resistant interface design directly applies current research to create a solution that significantly improves emergency outcomes across multiple crisis scenarios. \\

@@ -4,24 +4,28 @@
 \section{Background}
 \label{section:background}
 
-Emergencies strike without warning, and panic often follows. When faced with danger, many people freeze or make poor decisions due to stress, potentially worsening outcomes for themselves and others. This natural stress response can prevent effective action precisely when clear thinking is most crucial.
+In emergency situations, the critical nature of timely and effective response cannot be overstated. Emergencies strike without warning, and panic often follows. When faced with danger, many people freeze or make poor decisions due to stress, potentially worsening outcomes for themselves and others. This natural stress response can prevent effective action precisely when clear thinking is most crucial.
 
-In Thailand alone, emergency services receive over 4,300 calls daily (1.6 million annually), with traffic accidents (25.6\%), unknown issues (20.4\%), and medical emergencies like abdominal pain (10.6\%) leading the statistics. These situations are particularly dangerous for vulnerable populations like children, the elderly, and those with existing medical conditions, who may require specialized attention during crises.
+The statistical landscape in Thailand illustrates the magnitude of this challenge, with emergency services receiving over 4,300 calls daily (1.6 million annually). Traffic accidents account for (25.6\%) of these emergencies, followed by unknown issues (20.4\%), and medical emergencies like abdominal pain (10.6\%). These statistics underscore the necessity for comprehensive and efficient emergency response systems to address these diverse and frequent crises.
 
-The consequences of delayed or ineffective emergency responses can be devastating: preventable injuries, loss of life, and lasting psychological trauma. Caregivers and bystanders, despite good intentions, may hesitate or act incorrectly due to emotional distress, leading to preventable harm. This gap between knowledge and action directly impacts survival rates and recovery outcomes.
+When emergencies occur in unfamiliar settings or affect loved ones, people experience heightened levels of stress and panic. This emotional distress can significantly impair decision-making abilities. Many individuals don't know which emergency services to contact, and sometimes, calling general emergency hotlines can take longer than contacting nearby emergency facilities directly. However, unfamiliarity with local resources or simple lack of knowledge often prevents this more efficient approach.
 
-Our smartphone application addresses this critical need by providing real-time emergency guidance through the technology already in users' pockets. By offering step-by-step instructions during crisis situations, clear direction to reduce panic, and specialized protocols for various emergencies, we can transform emergency response capabilities at the individual level. This research focuses on leveraging widely available mobile technology to improve emergency outcomes when every second counts.
+The psychological impact of emergencies further complicates response effectiveness. People in crisis frequently struggle to communicate crucial information to emergency operators due to panic, making it difficult for responders to accurately locate the emergency and provide appropriate guidance. This communication breakdown can lead to critical delays in assistance.
+
+In emergency situations, time is a decisive factor—a difference of just one minute can determine survival outcomes. Yet factors including panic, emotional distress over a loved one's condition, unfamiliarity with emergency protocols, or insufficient knowledge can all contribute to delayed or ineffective emergency responses by those first on the scene.
+
+The consequences of these delays can be devastating: preventable injuries, loss of life, and lasting psychological trauma. Despite good intentions, caregivers and bystanders may hesitate or take incorrect actions due to emotional distress, resulting in preventable harm. This gap between emergency knowledge and emergency performance represents a critical area for intervention, as it directly impacts survival rates and recovery outcomes for those experiencing emergencies.
 
 \section{Problem Statement}
 \label{section:problem-statement}
 
-In emergency situations, the psychological phenomenon of stress-induced cognitive impairment presents a significant public health challenge. Despite the widespread availability of emergency protocols and safety guidelines, individuals frequently experience severe decision-making paralysis when confronted with high-stress scenarios. This cognitive disconnect—between theoretical knowledge and practical application under pressure—remains inadequately addressed in current emergency response systems.
+Individuals experiencing emergencies face critical decision-making challenges when seconds count. These people—whether victims, caregivers, or bystanders—often experience overwhelming panic, stress, and anxiety that impair their ability to take effective action. This cognitive impairment is worsened by widespread lack of knowledge about appropriate emergency procedures and local resources, creating a dangerous gap between what people need to do and what they're actually capable of doing in crisis situations.
 
-Observed evidence indicates that approximately 80\% of individuals experience significant mental processing disruptions during high-stress emergencies, manifesting as confusion, memory lapses, and decision-making hesitation. Furthermore, over 60\% of people either freeze completely or make critical errors during emergencies, substantially reducing survival rates and positive outcomes. This phenomenon affects both untrained bystanders and individuals with prior emergency training, suggesting that traditional knowledge-based preparation may be insufficient.
+The problem becomes particularly severe during the initial moments of an emergency when time is the most critical factor. Without proper preparation, individuals waste precious minutes struggling to identify appropriate emergency contacts, communicate essential information clearly, or perform necessary first response actions. These delays occur precisely when rapid, decisive action would have the greatest impact on survival and recovery outcomes.
 
-This cognitive impairment is particularly problematic for caregivers of vulnerable populations, including those managing chronic conditions, elderly individuals, and children with special medical needs. The psychological pressure experienced by these caregivers can be even more pronounced, as the consequences of delayed or incorrect actions may be more severe for their dependents.
+This issue demands attention because it directly affects matters of life and death. The consequences of ineffective emergency response extend beyond immediate physical harm to include long-term health complications, psychological trauma, and preventable fatalities. Furthermore, these negative outcomes disproportionately affect vulnerable populations such as children, the elderly, and those with existing medical conditions.
 
-The gap between emergency knowledge and emergency performance represents a critical area for intervention. While considerable resources have been invested in emergency protocols, comparatively little attention has focused on overcoming the psychological barriers to implementing these protocols during actual emergencies. Our application aims to address this gap by examining the efficacy of real-time digital guidance systems in mitigating stress-induced cognitive impairment and improving emergency response outcomes across diverse scenarios and populations.
+Given the unpredictable nature of emergencies and the universal cognitive limitations humans experience under extreme stress, a proactive solution that addresses preparation before emergencies occur represents the most promising approach. This leads us to consider how technology might bridge the gap between emergency knowledge and performance when it matters most.
 
 
 \section{Solution Overview}
@@ -29,28 +33,34 @@ The gap between emergency knowledge and emergency performance represents a criti
 
 Bystander is an AI-driven emergency assistance application designed to enhance response efficiency during critical situations. By leveraging real-time location data, the application identifies the most appropriate emergency contact, ensuring faster and more effective assistance. Instead of solely relying on a general emergency hotline, Bystander determines whether contacting local police, a nearby hospital, or specialized emergency services is the best course of action.
 
-The core functionality of the application follows a structured process:
+Bystander is designed to address three primary categories of emergencies:
+
 \begin{enumerate}
-    \item Incident Detection – When an emergency occurs, the app assists users in identifying the most suitable authority to contact.
-    \item Optimized Emergency Call Routing – The application recommends the fastest and most relevant emergency contact based on real-time location data.
-    \item Guided Response Actions – While awaiting professional assistance, users receive clear, step-by-step guidance to help manage the situation effectively.
+    \item Medical Emergencies: Covering situations ranging from cardiac events, strokes, and severe allergic reactions to childbirth complications, seizures, and diabetic emergencies
+    \item Accidental Emergencies: Addressing vehicle collisions, falls, drowning incidents, burns, electrical accidents, structural collapses, and hazardous material exposures.
+    \item Crime Emergencies: Providing support during active threats, assaults, robberies, domestic violence situations, and other scenarios requiring law enforcement intervention.
 \end{enumerate}
 
 \subsection{Features}
 \label{subsection:features}
 
 \begin{enumerate}[leftmargin=80pt]
-    \item Real-Time Emergency Service Locator: Utilizes GPS tracking to determine whether calling the general emergency hotline or directly contacting a nearby hospital or police station is the best option.
-    \item AI-Generated Emergency Scripts: Automatically compiles a structured emergency report, including key details such as location and the nature of the incident, enabling clear and effective communication with responders.
-    \item Step-by-Step Emergency Guidance: Provides easy-to-follow instructions on handling various emergencies, such as administering first aid or assessing an individual’s condition before help arrives.
-    \item Community-Powered Guidance: Allows verified experts (e.g., medical professionals, emergency responders) to contribute video or text-based instructional content for different emergency scenarios.
-    Content is categorized by emergency type (e.g., fire, traffic accident, medical emergencies) for ease of access.
+    \item \textbf{Speech-to-Text Emergency Detection} \\
+    Users can press a "talk" button to speak into the application, which will transcribe their speech into text and use it analyze the transcribed text for emergency-related keywords (e.g., “choking”)
+    \item \textbf{Contextual Emergency Guidance Generation} \\
+    Receive emergency-related keywords and generates step-by-step guidance or retrieves a life-saving instruction clip from the internet based on the context of the speech.
+    \item \textbf{Text-to-Speech for Guidance} \\
+    After generating the emergency guidance, the application can convert the text-based instructions into speech for the user to follow hands-free.
+    \item \textbf{Emergency Facility Finder and Recommendations} \\
+    The application uses location data to find nearby emergency services like hospitals, police stations, or emergency centers, and suggests which facility to contact first based on decision rules.
+    \item \textbf{Phone Operator Script Generation} \\
+    The application generates a script for the user to speak to an operator based on the emergency's context, using the keywords from the transcribed speech.
 \end{enumerate}
 
 \section{Target User}
 \label{section:target-user}
 
-ByStander is designed for individuals who are at a higher risk of facing emergencies and require immediate assistance in critical situations. The key target users include residents of Thailand who are prone to emergencies, such as those who live with elderly individuals or sick patients who may require urgent medical attention. Or general individuals who have a higher chance of encountering emergencies, including those who frequently drive at night or work in high-risk environments.
+ByStander is designed for individuals who are at a higher risk of facing emergencies and require immediate assistance in critical situations. The key target users include residents of Thailand who are prone to facing emergencies, such as those who live with elderly individuals or sick patients who may require urgent medical attention. Or general individuals who have a higher chance of encountering emergencies, including those who frequently drive at night or work in high-risk environments.
 
 - Age Group: 15-60 years old, ensuring accessibility for teenagers, adults, and middle-aged individuals who may need emergency support.
 
@@ -72,4 +82,7 @@ The app helps people in emergencies by providing faster response times, making i
     \item Cognitive Impairment : Problems with a person’s ability to think, learn, remember, use judgement, and make decisions. Signs of cognitive impairment include memory loss and trouble concentrating, completing tasks, understanding, remembering, following instructions, and solving problems. Other common signs may include changes in mood or behavior, loss of motivation, and being unaware of surroundings. Cognitive impairment may be mild or severe. There are many causes of cognitive impairment, including cancer and some cancer treatments.
     \item Geotagging: Adding location information to something, like a picture or a post, so people know where it was taken or where something is happening.
     \item Emergency Hotline: A special phone number you can call for immediate help during an emergency, like calling 911 for urgent situations.
+    \item Emergency Response: The coordinated efforts and actions taken by individuals or services to address an emergency situation with the goal of minimizing harm.
+    \item Emergency Script: A script for people in emergency situations to speak to operators
+    \item Bystander Effect: A social psychological phenomenon where individuals are less likely to offer help in an emergency when others are present.
 \end{enumerate}
