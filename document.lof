@@ -1,3 +1,7 @@
 ~\hfill \textbf {Page}\par \sp@ce@skip .2in\relax \vskip \sp@ce@skip \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces User Interface Design}}{17}{figure.3.1}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Example technology stack}}{23}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Business workflow including AI components and non-AI component part}}{23}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Overall UI design of ByStander}}{32}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Emergency Voice Transcription Service UI}}{33}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Contextual Emergency Guidance Generation with Text-to-Speech for Guidance Service UI}}{33}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Phone Operator Generation UI}}{34}{figure.5.5}%
