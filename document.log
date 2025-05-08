@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  8 MAY 2025 22:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  8 MAY 2025 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -494,7 +494,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<assets/ku/symbol.png, id=213, 308.352pt x 308.352pt>
+<assets/ku/symbol.png, id=209, 308.352pt x 308.352pt>
 File: assets/ku/symbol.png Graphic file (type png)
 <use assets/ku/symbol.png>
 Package pdftex.def Info: assets/ku/symbol.png  used on input line 5.
@@ -880,7 +880,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 25
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [14] [15]
-<./assets//design/initial-ui-design.png, id=438, 873.2625pt x 660.4675pt>
+<./assets//design/initial-ui-design.png, id=432, 873.2625pt x 660.4675pt>
 File: ./assets//design/initial-ui-design.png Graphic file (type png)
 <use ./assets//design/initial-ui-design.png>
 Package pdftex.def Info: ./assets//design/initial-ui-design.png  used on input line 79.
@@ -898,12 +898,12 @@ Chapter 4.
 
 
 
-] [19] [20] [21]) [22]
+] [19] [20]) [21]
 \openout2 = `body/softwaredevelopment.aux'.
 
  (./body/softwaredevelopment.tex
 Chapter 5.
-<./assets//flows/business-workflow.png, id=512, 1284.8pt x 1216.545pt>
+<./assets//flows/business-workflow.png, id=491, 1284.8pt x 1216.545pt>
 File: ./assets//flows/business-workflow.png Graphic file (type png)
 <use ./assets//flows/business-workflow.png>
 Package pdftex.def Info: ./assets//flows/business-workflow.png  used on input line 8.
@@ -911,15 +911,15 @@ Package pdftex.def Info: ./assets//flows/business-workflow.png  used on input li
 
 Underfull \vbox (badness 2042) has occurred while \output is active []
 
- [23
+ [22
 
 
 
- <./assets//flows/business-workflow.png>] [24] [25] [26] [27]
+ <./assets//flows/business-workflow.png>] [23] [24] [25] [26]
 Underfull \vbox (badness 7722) has occurred while \output is active []
 
- [28] [29] [30]
-<./assets//design/mockup-overall.png, id=553, 747.79375pt x 562.1pt>
+ [27] [28] [29]
+<./assets//design/mockup-overall.png, id=533, 747.79375pt x 562.1pt>
 File: ./assets//design/mockup-overall.png Graphic file (type png)
 <use ./assets//design/mockup-overall.png>
 Package pdftex.def Info: ./assets//design/mockup-overall.png  used on input line 139.
@@ -928,7 +928,7 @@ Package pdftex.def Info: ./assets//design/mockup-overall.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./assets//design/voice-detection.png, id=554, 200.75pt x 431.6125pt>
+<./assets//design/voice-detection.png, id=534, 200.75pt x 431.6125pt>
 File: ./assets//design/voice-detection.png Graphic file (type png)
 <use ./assets//design/voice-detection.png>
 Package pdftex.def Info: ./assets//design/voice-detection.png  used on input line 146.
@@ -936,7 +936,7 @@ Package pdftex.def Info: ./assets//design/voice-detection.png  used on input lin
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./assets//design/guidance-generation.png, id=555, 213.79875pt x 526.96875pt>
+<./assets//design/guidance-generation.png, id=535, 213.79875pt x 526.96875pt>
 File: ./assets//design/guidance-generation.png Graphic file (type png)
 <use ./assets//design/guidance-generation.png>
 Package pdftex.def Info: ./assets//design/guidance-generation.png  used on input line 157.
@@ -944,7 +944,7 @@ Package pdftex.def Info: ./assets//design/guidance-generation.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./assets//design/script-generator.png, id=556, 198.7425pt x 460.72125pt>
+<./assets//design/script-generator.png, id=536, 198.7425pt x 460.72125pt>
 File: ./assets//design/script-generator.png Graphic file (type png)
 <use ./assets//design/script-generator.png>
 Package pdftex.def Info: ./assets//design/script-generator.png  used on input line 165.
@@ -952,12 +952,12 @@ Package pdftex.def Info: ./assets//design/script-generator.png  used on input li
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [31] [32 <./assets//design/mockup-overall.png>] [33 <./assets//design/voice-detection.png> <./assets//design/guidance-generation.png>] [34 <./assets//design/script-generator.png>]
+) [30] [31 <./assets//design/mockup-overall.png>] [32 <./assets//design/voice-detection.png> <./assets//design/guidance-generation.png>] [33 <./assets//design/script-generator.png>]
 \openout2 = `body/deliverable.aux'.
 
  (./body/deliverable.tex
 Chapter 6.
-) [35
+) [34
 
 
 
@@ -966,11 +966,11 @@ Chapter 6.
 
  (./body/discussion.tex
 Chapter 7.
-) [36
+) [35
 
 
 
-] (./common/onetextpage.tex) [37
+] (./common/onetextpage.tex) [36
 
 
 
@@ -984,26 +984,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \T1/ptm/m/n/14.4 (+20) / / www . researchgate . net / publication / 304651244 _ VOICE _
  []
 
-) [38
+) [37
 
 ]
 \openout2 = `body/appendices.aux'.
 
  (./body/appendices.tex (./common/onetextpage.tex)
 \c@nappendix=\count299
- [39
+ [38
 
+
+] [39
 
 ] [40
-
-] [41
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
-) [42
+) [41
 
 ] (./document.aux (./partials/cover.aux) (./partials/innercover.aux) (./body/abstract.aux) (./body/acknowledgement.aux) (./body/introduction.aux) (./body/relatedworks.aux) (./body/requirementanalysis.aux) (./body/softwarearchitecture.aux) (./body/softwaredevelopment.aux) (./body/deliverable.aux) (./body/discussion.aux) (./body/appendices.aux))
  ***********
@@ -1011,21 +1011,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: A6E7BB9D71D85D38FC74A0F762DE9271;9286.
+(rerunfilecheck)             Checksum: 228AC457650F6DA4D740C58CC5FB321B;8939.
  ) 
 Here is how much of TeX's memory you used:
- 14775 strings out of 474116
- 251504 string characters out of 5743683
+ 14759 strings out of 474116
+ 251357 string characters out of 5743683
  1950187 words of memory out of 5000000
- 36361 multiletter control sequences out of 15000+600000
- 629076 words of font info for 284 fonts, out of 8000000 for 9000
+ 36360 multiletter control sequences out of 15000+600000
+ 628949 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1039b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (51 pages, 1524083 bytes).
+Output written on document.pdf (50 pages, 1521952 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 608 compressed objects within 7 object streams
- 195 named destinations out of 1000 (max. 500000)
- 86980 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 667 PDF objects out of 1000 (max. 8388607)
+ 587 compressed objects within 6 object streams
+ 183 named destinations out of 1000 (max. 500000)
+ 86972 words of extra memory for PDF output out of 89155 (max. 10000000)
 

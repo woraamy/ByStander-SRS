@@ -26,47 +26,43 @@
 \contentsline {section}{\numberline {4.3}Sequence Diagram}{18}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Algorithm}{18}{section.4.4}%
 \contentsline {section}{\numberline {4.5}AI component}{18}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Feature 1: Speech-to-Text Emergency Detection}{18}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Feature 1: Emergency Voice Transcription Service}{18}{subsection.4.5.1}%
 \contentsline {subsubsection}{Input/Output}{18}{section*.6}%
 \contentsline {subsubsection}{Processing Logic}{18}{section*.7}%
 \contentsline {subsubsection}{Model Used}{19}{section*.8}%
 \contentsline {subsection}{\numberline {4.5.2}Feature 2: Contextual Emergency Guidance Generation}{19}{subsection.4.5.2}%
 \contentsline {subsubsection}{Input/Output}{19}{section*.9}%
 \contentsline {subsubsection}{Processing Logic}{19}{section*.10}%
-\contentsline {subsubsection}{Model Used}{20}{section*.11}%
+\contentsline {subsubsection}{Model Used}{19}{section*.11}%
 \contentsline {subsection}{\numberline {4.5.3}Feature 3: Text-to-Speech for Guidance}{20}{subsection.4.5.3}%
 \contentsline {subsubsection}{Input/Output}{20}{section*.12}%
 \contentsline {subsubsection}{Processing Logic}{20}{section*.13}%
 \contentsline {subsubsection}{Model Used}{20}{section*.14}%
-\contentsline {subsection}{\numberline {4.5.4}Feature 4: Emergency Facility Finder and Recommendations}{20}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.4}Feature 5: Phone Operator Generation}{20}{subsection.4.5.4}%
 \contentsline {subsubsection}{Input/Output}{20}{section*.15}%
-\contentsline {subsubsection}{Processing Logic}{21}{section*.16}%
+\contentsline {subsubsection}{Processing Logic}{20}{section*.16}%
 \contentsline {subsubsection}{Model Used}{21}{section*.17}%
-\contentsline {subsection}{\numberline {4.5.5}Feature 5: Emergency Script Generator}{21}{subsection.4.5.5}%
-\contentsline {subsubsection}{Input/Output}{21}{section*.18}%
-\contentsline {subsubsection}{Processing Logic}{22}{section*.19}%
-\contentsline {subsubsection}{Model Used}{22}{section*.20}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion AI Component Design}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Business Context \& AI integration}{23}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Emergency Voice Transcription Service}{24}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Contextual Emergency Guidance Generation}{24}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Text-to-speech for guidance (TTS)}{25}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Phone operator generation}{25}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}Goal Hierarchy}{26}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Emergency Voice Transcription Service}{26}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Contextual Emergency Guidance Generation}{26}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Text-to-speech for guidance}{27}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Phone operator generation}{28}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Task Requirements Analysis using AI Canvas}{29}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}AI Task Requirements:}{29}{subsection.5.3.1}%
-\contentsline {subsubsection}{Emergency Voice Transcription Service}{29}{section*.21}%
-\contentsline {subsubsection}{Contextual Emergency Guidance Generation}{29}{section*.22}%
-\contentsline {subsubsection}{Text-to-speech for guidance}{30}{section*.23}%
-\contentsline {subsubsection}{Phone operator generation}{30}{section*.24}%
-\contentsline {section}{\numberline {5.4}User Experience Design with AI}{31}{section.5.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{35}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Solution}{35}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Test Report}{35}{section.6.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{36}{chapter.7}%
-\contentsline {chapter}{Appendix A: Example}{40}{chapter*.26}%
-\contentsline {chapter}{Appendix B: About \LaTeX }{42}{chapter*.27}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion AI Component Design}{22}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Business Context \& AI integration}{22}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Emergency Voice Transcription Service}{23}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Contextual Emergency Guidance Generation}{23}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Text-to-speech for guidance (TTS)}{24}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Phone Operator Generation}{24}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Goal Hierarchy}{25}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Emergency Voice Transcription Service}{25}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Contextual Emergency Guidance Generation}{25}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Text-to-speech for guidance}{26}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Phone Operator Generation}{27}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Task Requirements Analysis using AI Canvas}{28}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}AI Task Requirements:}{28}{subsection.5.3.1}%
+\contentsline {subsubsection}{Emergency Voice Transcription Service}{28}{section*.18}%
+\contentsline {subsubsection}{Contextual Emergency Guidance Generation}{28}{section*.19}%
+\contentsline {subsubsection}{Text-to-speech for guidance}{29}{section*.20}%
+\contentsline {subsubsection}{Phone Operator Generation}{29}{section*.21}%
+\contentsline {section}{\numberline {5.4}User Experience Design with AI}{30}{section.5.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Solution}{34}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Test Report}{34}{section.6.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{35}{chapter.7}%
+\contentsline {chapter}{Appendix A: Example}{39}{chapter*.23}%
+\contentsline {chapter}{Appendix B: About \LaTeX }{41}{chapter*.24}%

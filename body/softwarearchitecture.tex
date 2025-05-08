@@ -44,12 +44,12 @@
 
 The AI component forms the core intelligence of the emergency response system, providing speech recognition, emergency guidance, text-to-speech capabilities, facility recommendations, and communication assistance. This document outlines each feature's implementation and deployment strategy.
 
-\subsection{Feature 1: Speech-to-Text Emergency Detection}
+\subsection{Feature 1: Emergency Voice Transcription Service}
 
     \subsubsection{Input/Output}
     \begin{itemize}
         \item Input:  Voice recording of user describing emergency in Thai
-        \item Output: Transcribed text and extracted emergency keywords
+        \item Output: Transcribed text 
     \end{itemize}
 
     \subsubsection{Processing Logic}
@@ -57,29 +57,26 @@ The AI component forms the core intelligence of the emergency response system, p
         \item Capture voice recording through device microphone
         \item Preprocess audio for noise reduction and normalization
         \item Send to Gowajee.ai API for Thai-optimized transcription
-        \item Process transcribed text through NLP pipeline for keyword extraction
-        \item Identify critical emergency terms using specialized medical lexicon
-        \item Classify emergency type based on extracted keywords
+        \item Give the transcribed text back to process later on
     \end{enumerate}
 
 \subsubsection{Model Used}
 \begin{itemize}
-    \item Primary Model: Gowajee.ai speech recognition model optimized for Thai language
-    \item Secondary Model: BERT-based NLP model fine-tuned for Thai emergency keyword extraction
-    \item Deployment Strategy: Cloud API with lightweight offline backup model
+    \item Primary Model: Google Speech-to-Text API with Thai language support
 \end{itemize}
 
 \subsection{Feature 2: Contextual Emergency Guidance Generation}
 
 \subsubsection{Input/Output}
 \begin{itemize}
-    \item Input: Transcribed text and extracted emergency keywords
+    \item Input: Transcribed text 
     \item Output: Step-by-step emergency guidance text and related video references
 \end{itemize}
 
 \subsubsection{Processing Logic}
 \begin{enumerate}
     \item Analyze extracted keywords for emergency classification
+    \item If the situation user provided is not an emergency, return a message to the user
     \item Query emergency procedures database for relevant protocols
     \item Generate contextually appropriate guidance based on emergency type
     \item Structure output in clear, simple language optimized for crisis situations
@@ -88,7 +85,7 @@ The AI component forms the core intelligence of the emergency response system, p
 
 \subsubsection{Model Used}
 \begin{itemize}
-    \item Primary Model: Fine-tuned Deepseek LLM (7B parameter version)
+    \item Primary Model: Fine-tuned Claude LLM (Haiku version)
     \item Training Dataset: Emergency procedures from Thai medical websites, first aid protocols, medical emergency keyword database
 \end{itemize}
 
@@ -103,7 +100,6 @@ The AI component forms the core intelligence of the emergency response system, p
 \subsubsection{Processing Logic}
 \begin{enumerate}
     \item Optimize text for audio readability (punctuation, pauses)
-    \item Add SSML markup for emphasis on critical instructions
     \item Process through TTS engine with emergency-appropriate voice profile
     \item Stream audio for immediate playback while buffering remainder
     \item Adjust speaking pace based on emergency type severity
@@ -111,42 +107,42 @@ The AI component forms the core intelligence of the emergency response system, p
 
 \subsubsection{Model Used}
 \begin{itemize}
-    \item Primary Model: Narakeet API with Thai language pack
+    \item Primary Model: Google TTS API with Thai language support
 \end{itemize}
 
-\subsection{Feature 4: Emergency Facility Finder and Recommendations}
+% \subsection{Feature 4: Emergency Facility Finder and Recommendations}
 
-\subsubsection{Input/Output}
-\begin{itemize}
-    \item Input: User's GPS location, emergency type, time of day
-    \item Output: Prioritized list of appropriate emergency facilities with contact information and routing
-\end{itemize}
+% \subsubsection{Input/Output}
+% \begin{itemize}
+%     \item Input: User's GPS location, emergency type, time of day
+%     \item Output: Prioritized list of appropriate emergency facilities with contact information and routing
+% \end{itemize}
 
-\subsubsection{Processing Logic}
-\begin{enumerate}
-    \item Query Google Maps API for nearby emergency facilities
-    \item Filter facilities based on emergency type compatibility
-    \item Apply multi-factor ranking algorithm considering:
-    \begin{itemize}
-        \item Geographic proximity
-        \item Facility specialization relevance
-        \item Current availability based on time
-        \item Historical response efficiency
-        \item Traffic conditions
-    \end{itemize}
-    \item Generate recommendation list with clear reasoning
-    \item Prepare facility contact information and routing guidance
-\end{enumerate}
+% \subsubsection{Processing Logic}
+% \begin{enumerate}
+%     \item Query Google Maps API for nearby emergency facilities
+%     \item Filter facilities based on emergency type compatibility
+%     \item Apply multi-factor ranking algorithm considering:
+%     \begin{itemize}
+%         \item Geographic proximity
+%         \item Facility specialization relevance
+%         \item Current availability based on time
+%         \item Historical response efficiency
+%         \item Traffic conditions
+%     \end{itemize}
+%     \item Generate recommendation list with clear reasoning
+%     \item Prepare facility contact information and routing guidance
+% \end{enumerate}
 
-\subsubsection{Model Used}
-\begin{itemize}
-    \item Primary Model: Deepseek LLM with geospatial processing extensions
-    \item Integration: Google Maps API for location intelligence
-    \item Dataset: Comprehensive emergency facility database for Thailand with capabilities matrix
-    \item Algorithm: Weighted decision model with emergency-specific priority factors
-\end{itemize}
+% \subsubsection{Model Used}
+% \begin{itemize}
+%     \item Primary Model: Deepseek LLM with geospatial processing extensions
+%     \item Integration: Google Maps API for location intelligence
+%     \item Dataset: Comprehensive emergency facility database for Thailand with capabilities matrix
+%     \item Algorithm: Weighted decision model with emergency-specific priority factors
+% \end{itemize}
 
-\subsection{Feature 5: Emergency Script Generator}
+\subsection{Feature 5: Phone Operator Generation}
 
 \subsubsection{Input/Output}
 \begin{itemize}
@@ -173,6 +169,5 @@ The AI component forms the core intelligence of the emergency response system, p
 \begin{itemize}
     \item Primary Model: Fine-tuned Deepseek LLM for script generation
     \item Integration: Google Maps API and Google Nearby Search
-    \item Dataset: Script templates for different emergency types, landmark database
-    \item Enhancement: RLHF training with emergency operator feedback
+    \item Dataset: Script templates for different emergency types
 \end{itemize}

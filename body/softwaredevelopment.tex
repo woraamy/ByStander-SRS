@@ -30,7 +30,7 @@ During high-stress events, users may find it difficult to read and process long 
 \indent AI-powered TTS is ideal here because modern neural TTS models can produce highly natural, clear, and appropriately toned speech in Thai, which is far superior to robotic-sounding alternatives and beneficial to calm and effective understanding in a crisis.\\
 \indent While the core message must be perfectly conveyed, some minor imperfections that do not affect clarity might be acceptable, aiming for a high level of naturalness and digestibility, maybe above an 80-90\% threshold as perceived by users.
 
-\subsection{Phone operator generation}
+\subsection{Phone Operator Generation}
 \label{subsec:ai_comp_phone_operator}
 When users need to contact official emergency services or specific facilities, they may struggle to clearly and concisely convey all necessary information, especially if they are disoriented or panicked, or have difficulty pinpointing their location.\\
 \indent This AI component will generate a personalized, structured script in Thai, containing all critical details for the user to read to the operator. AI is well-suited for this because it can dynamically get information such as the nature of the emergency (derived from earlier inputs) and the user's precise current location (obtained via device GPS) and use them to produce an effective message.\\
@@ -65,7 +65,7 @@ For each AI component, the goal hierarchy will be listed as follows:
     \item \textbf{AI Model Goal:} To convert Thai text guidance into high-quality speech with natural intonation and pronunciation, ensuring understanding even in potentially noisy environments. This will be evaluated using a Mean Opinion Score (MOS) for naturalness and intelligibility. Data for evaluation will be Thai text samples, including emergency-specific terms, assessed by Thai listeners.
 \end{itemize}
 
-\subsection{Phone operator generation}
+\subsection{Phone Operator Generation}
 \label{subsec:goal_phone_operator}
 \begin{itemize}
     \item \textbf{System Goal:} To provide the user with a concise, accurate, and easy-to-read Thai script containing all critical information needed for an effective call to emergency services or a relevant facility. This will be evaluated by the script generation success rate (target $>$99\% for valid inputs), and time-to-generate-script (target $<$2 seconds from request).
@@ -104,7 +104,7 @@ For each AI component, the goal hierarchy will be listed as follows: % This sent
     \item \textbf{ENV (Environment):} The AI receives Thai text as input from the guidance generation feature. The output is audio played through the device's speaker or connected headphones. The user might be listening in a noisy or distracting environment, emphasizing the need for clarity.
 \end{itemize}
 
-\subsubsection{Phone operator generation}
+\subsubsection{Phone Operator Generation}
 \label{ssubsec:req_phone_operator}
 \begin{itemize}
     \item \textbf{REQ (Requirement):} The AI must generate a concise, factually accurate, and easy-to-read script in Thai that the user can relay to an emergency phone operator or other relevant facility. The script must include all critical information.
