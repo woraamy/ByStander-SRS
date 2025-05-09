@@ -1,7 +1,11 @@
 ~\hfill \textbf {Page}\par \sp@ce@skip .2in\relax \vskip \sp@ce@skip \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces User Interface Design}}{17}{figure.3.1}%
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Business workflow including AI components and non-AI component part}}{22}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Overall UI design of ByStander}}{31}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Emergency Voice Transcription Service UI}}{32}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Contextual Emergency Guidance Generation with Text-to-Speech for Guidance Service UI}}{32}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Phone Operator Generation UI}}{33}{figure.5.5}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces AI Canvas for Emergency Voice Transcription Service}}{30}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces AI Canvas for Contextual Emergency Guidance Generation}}{31}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces AI Canvas for Text-to-Speech for Guidance}}{32}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces AI Canvas for Phone Operator Generation}}{33}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Overall UI design of ByStander}}{34}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Emergency Voice Transcription Service UI}}{35}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Contextual Emergency Guidance Generation with Text-to-Speech for Guidance Service UI}}{36}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Phone Operator Generation UI}}{37}{figure.5.9}%

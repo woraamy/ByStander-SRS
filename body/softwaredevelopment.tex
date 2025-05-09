@@ -112,6 +112,39 @@ For each AI component, the goal hierarchy will be listed as follows: % This sent
     \item \textbf{ENV (Environment):} The AI requires access to the user's location data (with permission) and the summarized details of the emergency. Input includes the type of emergency and precise location coordinates/address.
 \end{itemize}
 
+\subsection{AI Canvas Development}
+\label{subsec:ai_canvas}
+For each AI component, the canvas are listed as follows: % This sentence is as per the provided text.
+
+\begin{figure}[htbp] % Changed [h] to [htbp] for better float placement
+    \centering
+    \includegraphics[width=0.9\textwidth]{/canvas/stt-canvas.png}
+    \caption{AI Canvas for Emergency Voice Transcription Service}
+    \label{fig:stt-canvas} % It's good practice to add labels to figures
+\end{figure}
+
+\begin{figure}[htbp] % Changed [h] to [htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{/canvas/guidance-canvas.png}
+    \caption{AI Canvas for Contextual Emergency Guidance Generation}
+    \label{fig:guidance-canvas}
+\end{figure}
+
+\begin{figure}[htbp] % Changed [h] to [htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{/canvas/tts-canvas.png}
+    \caption{AI Canvas for Text-to-Speech for Guidance}
+    \label{fig:tts-canvas}
+\end{figure}
+
+\begin{figure}[htbp] % Changed [h] to [htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{/canvas/script-canvas.png}
+    \caption{AI Canvas for Phone Operator Generation}
+    \label{fig:script-canvas}
+\end{figure}
+
+\newpage
 \section{User Experience Design with AI}
 \label{sec:user_experience_design_ai}
 
@@ -141,28 +174,31 @@ Phone Operator Generation & Prompt Style \\
 \end{figure}
 \medskip % This \medskip separates the two figures and can remain.
 
-\begin{figure}[h]
+\newpage
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.2\textwidth]{/design/voice-detection.png}
+    \includegraphics[width=0.3\textwidth]{/design/voice-detection.png}
     \caption{Emergency Voice Transcription Service UI}
 \end{figure}
 % The text block is now moved to be immediately after the figure environment above.
 % The \medskip that was previously here (between this figure and the text) has been removed.
 This is the UI design of the voice detection page. The user can press the button to start the voice detection and then the AI will transcribe the voice to text and show it on the screen. The user can also press the button again to stop the voice detection.
 Or the user can type the text in the text box and then press the button to start the AI to generate the emergency guidance.
-% If you need space after this paragraph before the next content, you can add \medskip or a blank line here.
+% % If you need space after this paragraph before the next content, you can add \medskip or a blank line here.
 
-\begin{figure}[h]
+\newpage
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.2\textwidth]{/design/guidance-generation.png}
+    \includegraphics[width=0.4\textwidth]{/design/guidance-generation.png}
     \caption{Contextual Emergency Guidance Generation with Text-to-Speech for Guidance Service UI}
 \end{figure}
 This is the UI design of the contextual emergency guidance generation page. The user can see the emergency guidance and the video clip that is related to the emergency. 
 The user can also press the button to listen to the guidance.
 
-\begin{figure}[h]
+\newpage
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.2\textwidth]{/design/script-generator.png}
+    \includegraphics[width=0.4\textwidth]{/design/script-generator.png}
     \caption{Phone Operator Generation UI}
 \end{figure}
 This is the UI design of the phone operator generation page. The user can see the script that the AI generated for them to read to the operator. \\
